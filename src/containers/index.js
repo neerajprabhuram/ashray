@@ -1,6 +1,7 @@
 export { default as Navbar } from './Navbar'
 export { default as Header } from './Header'
 export { default as Components } from './Components'
+export { default as About } from './About'
 export { default as Features } from './Features'
 export { default as Connectivity } from './Connectivity'
 export { default as Contact } from './Contact'

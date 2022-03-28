@@ -3,6 +3,7 @@ import {
   Navbar,
   Header,
   Components,
+  About,
   Features,
   Connectivity,
   Contact,
@@ -14,6 +15,7 @@ const App = () => {
       <Navbar />
       <Header />
       <Components />
+      <About />
       <Features />
       <Connectivity />
       <Contact />
