@@ -17,7 +17,7 @@ const Navbar = () => {
         onClick={() => {
           setToggleMenu(false)
         }}
-        class="mx-8 my-4 cursor-pointer  rounded bg-yellow-300 px-6 py-2 text-black sm:mx-6 md:text-lg"
+        class="mx-8 my-4 cursor-pointer rounded bg-yellow-300 px-6 py-2 text-black sm:mx-6 md:text-lg"
       >
         Contact
       </a>
