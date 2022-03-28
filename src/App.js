@@ -6,7 +6,7 @@ import {
   Features,
   Connectivity,
   Contact,
-} from './components'
+} from './containers'
 
 const App = () => {
   return (
