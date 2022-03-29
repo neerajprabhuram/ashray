@@ -1,8 +1,10 @@
-import React from 'react'
+import MapComponent from "../components/MapComponent"
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div class='w-full h-96'>
+      <MapComponent />
+    </div>
   )
 }
 
