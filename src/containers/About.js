@@ -3,7 +3,7 @@ import { FaFilePdf } from 'react-icons/fa'
 
 const About = () => {
   return (
-    <div class="mb-10 flex flex-col items-center p-4 sm:px-8 lg:px-20 xl:flex-row-reverse">
+    <div class="mb-10 bg-yellow-50 flex flex-col items-center p-4 sm:px-8 lg:px-20 xl:flex-row-reverse">
       <div class=" md:mb-10 xl:ml-10">
         <h1 class="m-5 mb-7 text-center font-PTSerif text-3xl">About us</h1>
         <div class="md:flex xl:flex-col">
