@@ -1,5 +1,9 @@
 import FeatureItem from '../components/FeatureItem'
 import { BsFillCheckSquareFill } from 'react-icons/bs'
+import { FaRupeeSign, FaShippingFast, FaBox, FaWarehouse } from 'react-icons/fa'
+import { GiSpanner } from 'react-icons/gi'
+import { IoIosPaper } from 'react-icons/io'
+import { MdOutlineMoneyOff } from 'react-icons/md'
 
 const Features = () => {
   return (
@@ -11,34 +15,34 @@ const Features = () => {
           text="Customs officer at site providing in-house customs clearance"
         />
         <FeatureItem
-          icon={<BsFillCheckSquareFill size={32} fill="#111" />}
+          icon={<GiSpanner size={32} fill="#111" />}
           text="State of the Art, built-to-suit, custom bonded FTWZ - free trade
           warehousing zone"
         />
         <FeatureItem
-          icon={<BsFillCheckSquareFill size={32} fill="#111" />}
+          icon={<FaRupeeSign size={32} fill="#111" />}
           text="No capital cost, low operational and establishment costs"
         />
         <FeatureItem
-          icon={<BsFillCheckSquareFill size={32} fill="#111" />}
+          icon={<FaBox size={32} fill="#111" />}
           text="Packaging, re-packaging, assembling, value addition and re-exports
           allowed"
         />
         <FeatureItem
-          icon={<BsFillCheckSquareFill size={32} fill="#111" />}
+          icon={<FaShippingFast size={32} fill="#111" />}
           text="All input goods, physical export goods and services are Zero-rated under IGST"
         />
         <FeatureItem
-          icon={<BsFillCheckSquareFill size={32} fill="#111" />}
+          icon={<FaWarehouse size={32} fill="#111" />}
           text="Customized warehousing, break bulk, containerized and dry cargo
           storage and more"
         />
         <FeatureItem
-          icon={<BsFillCheckSquareFill size={32} fill="#111" />}
+          icon={<IoIosPaper size={32} fill="#111" />}
           text="Single window clearances for Central and State level approvals"
         />
         <FeatureItem
-          icon={<BsFillCheckSquareFill size={32} fill="#111" />}
+          icon={<MdOutlineMoneyOff size={32} fill="#111" />}
           text="Fiscal and Regulatory Tax Benefits as applicable to units in SEZs"
         />
       </div>
