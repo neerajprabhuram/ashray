@@ -7,6 +7,7 @@ import {
   Features,
   Connectivity,
   Contact,
+  Footer
 } from './containers'
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
       <Features />
       <Connectivity />
       <Contact />
+      <Footer />
     </React.Fragment>
   )
 }

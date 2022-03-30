@@ -3,7 +3,7 @@ import FormComponent from '../components/FormComponent'
 
 const Contact = () => {
   return (
-    <div class="flex flex-col md:flex-row">
+    <div class="mb-10 flex flex-col md:flex-row">
       <MapComponent />
       <FormComponent />
     </div>
