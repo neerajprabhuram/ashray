@@ -10,14 +10,16 @@ const MapComponent = () => {
   const center = { lat: 8.45936671496608, lng: 77.64368658832156 }
 
   return (
-    <GoogleMap
-      zoom={9}
-      center={center}
-      mapContainerStyle={{ width: '100%', height: '100%' }}
-      options={{ disableDefaultUI: true, clickableIcons: false }}
-    >
-      <Marker position={center} />
-    </GoogleMap>
+    <div class="m-auto h-128 w-[100%] p-11 sm:w-[90%] md:w-[55%]">
+      <GoogleMap
+        zoom={8}
+        center={center}
+        mapContainerStyle={{ width: '100%', height: '100%' }}
+        options={{ disableDefaultUI: true, clickableIcons: false }}
+      >
+        <Marker position={center} />
+      </GoogleMap>
+    </div>
   )
 }
 
