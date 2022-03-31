@@ -8,8 +8,9 @@ const Navbar = () => {
 
   const NavLinks = () => (
     <Fragment>
-      <NavItem href="#home" title="Home" />
+      <NavItem href="#header" title="Home" />
       <NavItem href="#components" title="Components" />
+      <NavItem href="#about" title="About" />
       <NavItem href="#features" title="Features" />
       <NavItem href="#connectivity" title="Connectivity" />
       <a
@@ -30,7 +31,7 @@ const Navbar = () => {
       onClick={() => {
         setToggleMenu(false)
       }}
-      class="mx-8 my-4 cursor-pointer text-black sm:mx-6 md:text-lg"
+      class="mx-8 my-4 cursor-pointer text-black underline-offset-4 hover:underline sm:mx-6 md:text-lg"
     >
       {title}
     </a>
@@ -39,7 +40,7 @@ const Navbar = () => {
   return (
     <nav class="fixed top-0 z-10 flex w-full items-center justify-between bg-white p-4 shadow-md sm:px-8">
       <img src={logo} alt="logo" class="h-16 cursor-pointer"></img>
-      <div class="hidden md:flex md:items-center">
+      <div class="hidden md:items-center lg:flex">
         <NavLinks />
       </div>
       {toggleMenu ? (
@@ -49,7 +50,7 @@ const Navbar = () => {
           }}
           size={28}
           color="000"
-          class="fixed top-9 right-4 cursor-pointer sm:right-8 md:hidden"
+          class="fixed top-9 right-4 cursor-pointer sm:right-8 lg:hidden"
         />
       ) : (
         <AiOutlineMenu
@@ -58,18 +59,18 @@ const Navbar = () => {
           }}
           size={28}
           color="000"
-          class="cursor-pointer md:hidden"
+          class="cursor-pointer lg:hidden"
         />
       )}
       {toggleMenu && (
-        <div
-          class="absolute top-20 right-4 rounded bg-blue-50 
-          p-4 shadow-md sm:right-8 md:hidden"
-        >
-          <div class="flex flex-col items-end">
-            <NavLinks />
+          <div
+            class="z-100 absolute top-24 right-4 rounded bg-blue-50 
+            p-4 shadow-md sm:right-8 md:px-8 lg:hidden flex flex-col items-end"
+          >
+            {/* <div class=""> */}
+              <NavLinks />
+            {/* </div> */}
           </div>
-        </div>
       )}
     </nav>
   )

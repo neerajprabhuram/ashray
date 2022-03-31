@@ -12,7 +12,7 @@ import {
 
 const Components = () => {
   return (
-    <div class="mb-10 p-4 sm:px-8">
+    <div id='components' class="mb-10 p-4 sm:px-8">
       <h1 class="mb-10 text-center font-PTSerif text-3xl">Components</h1>
       <div class="grid grid-cols-1 place-items-center md:grid-cols-2 xl:grid-cols-3">
         <ComponentItem img={warehouse} title="Warehouse" />

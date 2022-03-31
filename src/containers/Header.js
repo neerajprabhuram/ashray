@@ -17,7 +17,7 @@ const Image = ({ src }) => {
 
 const Header = () => {
   return (
-    <div class="mt-24 mb-10">
+    <div id='header' class="mt-24 mb-10">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         slidesPerView={1}

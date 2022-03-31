@@ -3,7 +3,7 @@ import { car, ship, train, airplane } from '../assets'
 
 const Connectivity = () => {
   return (
-    <div class="bg-yellow-50 p-4 sm:px-8 lg:px-20">
+    <div id='connectivity' class="bg-yellow-50 p-4 sm:px-8 lg:px-20">
       <h1 class="m-5 text-center font-PTSerif text-3xl">Connectivity</h1>
       <div class='grid grid-cols-1 md:grid-cols-2 place-items-middle'>
         <ConnectivityItem1

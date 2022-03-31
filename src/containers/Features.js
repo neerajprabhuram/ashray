@@ -7,7 +7,7 @@ import { MdOutlineMoneyOff } from 'react-icons/md'
 
 const Features = () => {
   return (
-    <div class="mb-10 p-4 sm:px-8">
+    <div id='features' class="mb-10 p-4 sm:px-8">
       <h1 class="mb-10 text-center font-PTSerif text-3xl">Features</h1>
       <div class="grid grid-cols-1 place-items-center sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4">
         <FeatureItem
